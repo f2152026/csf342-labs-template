@@ -12,5 +12,5 @@
     }
   },
   "remoteUser": "vscode",
-  "postCreateCommand": "chmod +x scripts/*.sh && (code --install-extension classroom50-helper-extension/*.vsix || code-insiders --install-extension classroom50-helper-extension/*.vsix || true)"
+  "postCreateCommand": "chmod +x scripts/*.sh && ./scripts/install_extension.sh"
 }
